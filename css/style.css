@@ -1,9 +1,14 @@
 body {
     background-color: slategray;
+    font-family: 'Raleway', sans-serif;
 }
 
 footer {
     text-align: center;
+}
+
+#page-title {
+    font-weight: 800;
 }
 
 .container {
