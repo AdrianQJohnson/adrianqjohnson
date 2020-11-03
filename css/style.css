@@ -8,6 +8,16 @@ footer {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #212529;
+}
+
 #page-title {
     font-weight: 800;
 }
@@ -20,8 +30,7 @@ footer {
         width: 70%;
     }
     margin-top: 1%;
-    margin-bottom: 5%;
-    /* min-height: 500px; */
+    margin-bottom: 2%;
     padding: 45px;
     border-radius: 6px;
     background-color: rgba(255,255,255,0.3);
@@ -33,13 +42,17 @@ footer {
 }
 
 .aboutme-picture {
-    width: 400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     border: 1px solid black;
     border-radius: 20px;
+}
+
+.img-fluid {
+    width: auto;
+    height: 300px;
 }
 
 .portfolio-item {
@@ -53,4 +66,9 @@ footer {
 
 .portfolio-item:hover {
     background-color: rgba(255,255,255,0.3);
+}
+
+.social-icon {
+    width: 25px;
+    margin: 25px;
 }
