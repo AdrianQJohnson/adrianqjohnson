@@ -27,13 +27,6 @@ footer {
 }
 
 .header-image {
-    /* @media (max-width: 480px) {
-        width: 100%;
-    }
-    @media (min-width: 481px) {
-        width: 70%;
-        margin-left:15%;
-    } */
     width: 100%;
     margin-bottom: 1%;
 }
@@ -41,4 +34,9 @@ footer {
 .aboutme-picture {
     width: 300px;
     padding: 20px;
+}
+
+.col-sm {
+    text-align: center;
+    padding-top: 10px;
 }
