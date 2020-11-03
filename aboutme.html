@@ -2,10 +2,14 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>About Me | Adrian Johnson</title>
+        <!-- Icon from FontAwesome.com, no changes made, License: https://fontawesome.com/license -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/laptop-code-solid.svg" />
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="Raleway/static/Raleway-Regular.ttf">
+        <link rel="stylesheet" href="Raleway/static/Raleway-ExtraBold.ttf">
 
     </head>
     <body>
@@ -36,21 +40,29 @@
         
           <main>
               <div class="container">
-                <img class="aboutme-picture" src="images/aboutme-picture.jpg" alt="Picture of Adrian sitting on a wall">
-                <h1>About Me</h1>
-                <p>
-                  &emsp;Hello, my name is Adrian Johnson. I am a recent graduate from the University of North Carolina at Charlotte.
-                  I have a Bachelors Degree in Computer Science with a Minor in Mathematics and a Concentration in A.I., Robotics, 
-                  and Game Development.
-                </p>
-                <p>
-                  &emsp;Over the course of the past six years, I have worked on multiple projects in and out of school. These projects 
-                  range from mobile game development to financial application development. 
-                </p>
+                <div class="row">
+                  <div class="col-sm">
+                    <img class="aboutme-picture img-fluid" src="images/aboutme-picture.jpg" alt="Picture of Adrian sitting on a wall">
+                  </div>
+                  <div class="col-sm">
+                    <h1>About Me</h1>
+                    <p>
+                      &emsp;Hello, my name is Adrian Johnson. I am a recent graduate from the University of North Carolina at Charlotte.
+                      I have a Bachelors Degree in Computer Science with a Minor in Mathematics and a Concentration in A.I., Robotics, 
+                      and Game Development.
+                    </p>
+                    <p>
+                      &emsp;Over the course of the past six years, I have worked on multiple projects in and out of school. These projects 
+                      range from mobile game development to financial application development. 
+                    </p>
+                  </div>
+                </div>
               </div>
           </main>
           <footer>
             <p>&copyCopyright 2020 Adrian Q Johnson, All Rights Reserved</p>
+            <script src="js/jquery-3.5.1.js"></script>
+            <script src="js/bootstrap.js"></script>
             <script src="js/script.js"></script>
           </footer>
     </body>
