@@ -1,0 +1,15 @@
+.background-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/images/homepage-headerpic.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page-container {
+    margin: 0 auto;
+    padding: 0.7rem;
+    max-width: 79rem;
+}
