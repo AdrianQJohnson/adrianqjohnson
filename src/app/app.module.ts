@@ -11,7 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CardComponent } from './components/card/card.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ProjectComponent } from './components/project/project.component';
+import { ProjectComponent } from './pages/project/project.component';
 
 @NgModule({
   declarations: [
