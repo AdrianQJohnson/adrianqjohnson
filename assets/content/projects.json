@@ -1,0 +1,32 @@
+{
+    "projects": [
+        {
+            "title": "Digibois",
+            "category": "games",
+            "description": "",
+            "contributors": "",
+            "imageUrl": ""
+        },
+        {
+            "title": "Into the Wild",
+            "category": "games",
+            "description": "",
+            "contributors": "",
+            "imageUrl": ""
+        },
+        {
+            "title": "MegaFlexCLT",
+            "category": "websites",
+            "description": "",
+            "contributors": "",
+            "imageUrl": ""
+        },
+        {
+            "title": "",
+            "category": "",
+            "description": "",
+            "contributors": "",
+            "imageUrl": ""
+        }
+    ]
+}
