@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
-import * as project_content from '../../../assets/content/projects.json'
+import { BehaviorSubject } from 'rxjs';
+import project_content from '../../../assets/content/projects.json'
 @Injectable({
   providedIn: 'root'
 })

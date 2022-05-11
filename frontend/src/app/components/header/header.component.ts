@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { ContentService } from 'src/app/services/content/content.service';
+import { Project } from 'src/models/project.interface';
 
 @Component({
   selector: 'app-header',
@@ -7,22 +9,14 @@ import { Router } from '@angular/router';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-  public projectList: any = [
-    {
-      title: 'Digibois',
-      category: 'games',
-      description: ''
-    },
-    {
-      title: 'MegaFlexCLT',
-      category: 'websites',
-      description: ''
-    }
-  ]
+  public content: any;
+  public projectList: Project[] = [];
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private contentService: ContentService) { }
 
   ngOnInit(): void {
+    this.content = this.contentService.getProjectContent()
+    this.projectList = this.content.projects
   }
 
   public directToProject(project: any){
