@@ -1,0 +1,59 @@
+<app-card>
+    <h1>Personal Assignments</h1>
+    <p>Below is a list of assignments I have given myself for personal and/or career growth.</p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Reason</th>
+                <th>Priority</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>AWS Developer</th>
+                <td>Career necessity, general curiosity</td>
+                <td class="text-danger">High</td>
+                <td class="text-success">Active</td>
+            </tr>
+            <tr>
+                <th>DevOps</th>
+                <td>Career necessity, general curiosity</td>
+                <td>Moderate</td>
+                <td>Backlog</td>
+            </tr>
+            <tr>
+                <th>SQL</th>
+                <td>Career necessity</td>
+                <td class="text-secondary">Low</td>
+                <td>Backlog</td>
+            </tr>
+        </tbody>
+    </table>
+</app-card>
+
+<app-card>
+    <h1>Have a suggestion?</h1>
+    <p>If you have any suggestions for technologies, frameworks, languages, etc., share it with me using the form below!</p>
+
+    <form>
+        <div class="row my-3">
+            <div class="col-6">
+                <div class="mb-3">   
+                    <label class="form-label fw-bolder" for="suggestionSuggestor">Your name (Optional)</label>
+                    <input type="text" class="form-control" placeholder="Michael Scott" id="suggestionSuggestor">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bolder" for="suggestionTitle">Title</label>
+                    <input type="text" class="form-control" placeholder="Azure, python, jasmine, etc." id="suggestionTitle">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label fw-bolder" for="suggestionReasoning">Reasoning</label>
+                    <textarea type="text" class="form-control" placeholder="I feel like it would..." id="suggestionReasoning"></textarea>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-outline-primary" disabled>Submit</button>
+    </form>
+</app-card>
